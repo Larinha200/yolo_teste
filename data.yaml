@@ -1,0 +1,16 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+kpt_shape: [3, 3]
+flip_idx: [0, 1, 2]
+
+nc: 1
+names: ['Pessoa']
+
+roboflow:
+  workspace: lara-queiroz-s-workspace
+  project: detector-de-crises-ugc17
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/lara-queiroz-s-workspace/detector-de-crises-ugc17/1
